@@ -19,12 +19,12 @@ cd raiden
 go build -o raiden
 ```
 
-## Usage
+## Example usage
 
 ```sh
-./raiden [--headers] <url>
+./raiden https://google.com
 ```
-
+![Usage image](assets/usage.png)
 
 ## License
 
