@@ -7,6 +7,7 @@ Raiden is a simple HTTP(S) client that traces the request lifecycle, providing d
 - Detailed timing information for each phase of the HTTP request
 - Option to display response headers
 - Handles HTTP redirects
+
 ## Installation
 
 To install Raiden, you need to have Go installed on your machine. You can download and install Go from [the official website](https://golang.org/dl/).
