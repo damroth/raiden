@@ -21,7 +21,7 @@
           nativeBuildInputs = [ pkgs.go ];
 
           buildPhase = ''
-            go build -o raiden
+            HOME=$TMPDIR go build -o raiden
           '';
 
           installPhase = ''
