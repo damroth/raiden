@@ -44,6 +44,22 @@ go get .
 go build -o raiden
 ```
 
+## Installing Raiden using Flox
+
+To install this app using Flox, follow these steps:
+
+1. Add your GitHub repository to Flox:
+
+```sh
+flox add github:yourusername/raiden
+```
+
+2. Install the application:
+
+```sh
+flox install raiden
+```
+
 ## Example usage
 
 ```sh
