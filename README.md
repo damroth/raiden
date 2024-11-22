@@ -20,6 +20,30 @@ cd raiden
 go build -o raiden
 ```
 
+## Using Flox Environments
+
+To set up and use Flox environments for this project, follow these steps:
+
+1. Ensure you have Flox installed. You can download and install Flox from [the official website](https://flox.dev/).
+
+2. Activate the Flox environment:
+
+```sh
+flox activate
+```
+
+3. Install Go dependencies:
+
+```sh
+go get .
+```
+
+4. Build the application:
+
+```sh
+go build -o raiden
+```
+
 ## Example usage
 
 ```sh
