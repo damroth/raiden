@@ -52,7 +52,7 @@ jobs:
         GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} go build -o raiden-${{ matrix.goos }}-${{ matrix.goarch }}
 
     - name: Upload binary to release
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: raiden-${{ matrix.goos }}-${{ matrix.goarch }}
         path: raiden-${{ matrix.goos }}-${{ matrix.goarch }}
