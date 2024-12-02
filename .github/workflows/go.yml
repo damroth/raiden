@@ -69,11 +69,12 @@ jobs:
     - name: Download binaries
       uses: actions/download-artifact@v4
       with:
+        name: raiden-binaries
         path: build
 
     - name: Create release
       uses: softprops/action-gh-release@v1
       with:
-        files: build/raiden-*
+        files: build/*
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
